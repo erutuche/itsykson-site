@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Dmitry Itsykson</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+  </script>
+  <script src="Dima.js">
+  </script>
+  <link href="style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,800" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <div class="whole-page">
+    <div class="pic-and-menu">
+      <div class="pic-container">
+        <img alt="Dmitry Itsykson" class="pic" src="Dmitry-bw.jpg"> 
+      </div>
+      <nav>
+        <ul class="menu">
+          <li class="mobile-menu">
+            <button class="mobile-menu-button">
+              <img alt="P" class="mobile-menu-icon" src="icons/svg/resume.svg">
+            </button>
+          </li>
+          <li class="menu-button" data-card-id='about'>
+            <a href="#about"> 
+              <img alt="P" class="menu-icon" src="icons/svg/resume.svg">
+              <div class="menu-text">
+                ABOUT
+              </div>
+            </a>
+          </li> 
+          <li class="menu-button" data-card-id="papers">
+          <a href="#papers">
+            <img alt="P" class="menu-icon" src="icons/svg/book.svg">
+            <div class="menu-text">
+              RESEARCH PAPERS
+            </div>
+          </a>
+          </li> <!--button class="menu-button" data-card-id="slides">
+              <img class="menu-icon" src="icons/svg/presentation.svg" alt="P">
+              <div class="menu-text">SLIDES OF MY TALKS</div-->
+          <li class="menu-button" data-card-id="teaching">
+          <a href="#teaching">
+            <img alt="P" class="menu-icon" src="icons/svg/old.svg">
+            <div class="menu-text">
+              TEACHING
+            </div>
+          </a>
+          </li> 
+          <li class="menu-button" data-card-id="seminar">
+          <a href="#seminar">
+            <img alt="P" class="menu-icon" src="icons/svg/connection.svg">
+            <div class="menu-text">
+              DM SEMINAR
+            </div>
+          </a>
+          </li> 
+          <li class="menu-button" data-card-id="contacts">
+          <a href="#contacts">
+            <img alt="P" class="menu-icon" src="icons/svg/phone-book.svg">
+            <div class="menu-text">
+              CONTACTS
+            </div>
+          </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="card" data-card="about">
+      <div class="heading">
+        <h2>ABOUT</h2>
+      </div>
+      <div class="main-content">
+        <div class="name">
+          DMITRY ITSYKSON
+        </div>
+        <div class="position">
+          MATHEMATICIAN / SENIOR RESEARCHER
+        </div>
+        <div class="description">
+          <div class="description-left-column">
+            I work at <a href="http://logic.pdmi.ras.ru/" target="_blank">Laboratory of
+            Mathematical Logic</a> of <a href="http://www.pdmi.ras.ru/pdmi/index.php" target=
+            "_blank">Steklov Institute of Mathematics at St.Petersburg</a>. Basically I'm a
+            researcher in the field of psychology and psychotherapy. I'm dying to figure out the
+            mechanisms of how people think and feel.
+          </div>
+          <div class="description-right-column">
+            At the same time, I work as an IT HR, currently as a freelance IT recruiter. I consider
+            my HR activities more as a hobby, though this is my full-time job. I value intelligence
+            and sincerity. I'm deeply interested in what people are. I love analyzing things.
+          </div>
+        </div>
+        <div class="interests-title title">
+          <b>Research interests:</b>
+        </div>
+        <div class="interests-list-container">
+          <ul class="interests-list fancy-list">
+            <li>Computational complexity</li>
+            <li>Average case complexity</li>
+            <li>Foundation of cryptography</li>
+            <li>Proof complexity</li>
+            <li>Mathematical logic</li>
+            <li>Combinatorics</li>
+          </ul>
+        </div>
+      </div><!--закончилась right-part-research-interests-->
+    </div>
+    <div class="card" data-card="teaching">
+      <div class="heading">
+        <h2>TEACHING</h2>
+      </div>
+      <div class="main-content">
+        <div class="list-container">
+          <ul class="teaching-list block-list">
+            <li>
+              <div class="teaching-item">
+                <div class="course-name">
+                  Randomized methods in computations
+                </div>
+                <div class="course-place">
+                  Computer Science Club
+                </div>
+                <div class="course-year">
+                  Spring 2012
+                </div>
+              </div>
+              <div class="course-space"></div>
+            </li>
+            <li>
+              <div class="teaching-item">
+                <div class="course-name">
+                  Advanced topics in Computational Complexity
+                </div>
+                <div class="course-place">
+                  Academic University
+                </div>
+                <div class="course-year">
+                  Spring 2011
+                </div>
+              </div>
+              <div class="course-space"></div>
+            </li>
+            <li>
+              <div class="teaching-item">
+                <div class="course-name">
+                  Computational Complexity
+                </div>
+                <div class="course-place">
+                  Academic University
+                </div>
+                <div class="course-year">
+                  Fall 2010, Fall 2011
+                </div>
+              </div>
+              <div class="course-space"></div>
+            </li>
+            <li>
+              <div class="teaching-item">
+                <div class="course-name">
+                  Foundations of cryptography and average-case complexity
+                </div>
+                <div class="course-place">
+                  Academic University
+                </div>
+                <div class="course-year">
+                  Spring 2010, Spring 2012
+                </div>
+              </div>
+              <div class="course-space"></div>
+            </li>
+            <li>
+              <div class="teaching-item">
+                <div class="course-name">
+                  Advanced topics in Discrate Mathematics (expanders, probabalistic and algebraic
+                  methods in combinatorics)
+                </div>
+                <div class="course-place">
+                  Academic University
+                </div>
+                <div class="course-year">
+                  Spring 2010, Spring 2011, Spring 2012
+                </div>
+              </div>
+              <div class="course-space"></div>
+            </li>
+            <li>
+              <div class="teaching-item">
+                <div class="course-name">
+                  ASeminar on theoretical computer science
+                </div>
+                <div class="course-place">
+                  Academic University
+                </div>
+                <div class="course-year">
+                  Spring 2010
+                </div>
+              </div>
+              <div class="course-space"></div>
+            </li>
+            <li>
+              <div class="teaching-item">
+                <div class="course-name">
+                  Seminar om Mathematical Logic and Complexity theory
+                </div>
+                <div class="course-place">
+                  Academic University
+                </div>
+                <div class="course-year">
+                  Fall 2009
+                </div>
+              </div>
+              <div class="course-space"></div>
+            </li>
+            <li>
+              <div class="teaching-item">
+                <div class="course-name">
+                  Mathematical foundations of Computer Science
+                </div>
+                <div class="course-place">
+                  Computer Science club
+                </div>
+                <div class="course-year">
+                  Fall 2009
+                </div>
+              </div>
+              <div class="course-space"></div>
+            </li>
+            <li>
+              <div class="teaching-item">
+                <div class="course-name">
+                  Hardness vs randomness
+                </div>
+                <div class="course-place">
+                  Computer Science club
+                </div>
+                <div class="course-year">
+                  Spring 2009
+                </div>
+              </div>
+              <div class="course-space"></div>
+            </li>
+            <li>
+              <div class="teaching-item">
+                <div class="course-name">
+                  Mathematical Logic
+                </div>
+                <div class="course-place">
+                  Academic University
+                </div>
+                <div class="course-year">
+                  Spring 2009
+                </div>
+              </div>
+              <div class="course-space"></div>
+            </li>
+            <li>
+              <div class="teaching-item">
+                <div class="course-name">
+                  Discrete mathematics
+                </div>
+                <div class="course-place">
+                  Academic University
+                </div>
+                <div class="course-year">
+                  Fall 2008, Fall 2009
+                </div>
+              </div>
+              <div class="course-space"></div>
+            </li>
+            <li>
+              <div class="teaching-item">
+                <div class="course-name">
+                  Campaign against illiteracy
+                </div>
+                <div class="course-place">
+                  Computer Science Club
+                </div>
+                <div class="course-year">
+                  Fall 2007, Fall 2008
+                </div>
+              </div>
+              <div class="course-space"></div>
+            </li>
+            <li>
+              <div class="teaching-item">
+                <div class="course-name">
+                  Advanced topics in Discrete Mathematics
+                </div>
+                <div class="course-place">
+                  Special Seminar for SPbSU students
+                </div>
+                <div class="course-year">
+                  Spring-Fall 2007
+                </div>
+              </div>
+              <div class="course-space"></div>
+            </li>
+            <li>
+              <div class="teaching-item">
+                <div class="course-name">
+                  Mathematics
+                </div>
+                <div class="course-place">
+                  St. Petersburg Center of mathematical education
+                </div>
+                <div class="course-year">
+                  2004-2011
+                </div>
+              </div>
+              <div class="course-space"></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="card" data-card="papers">
+      <div class="heading">
+        <h2>PAPERS</h2>
+      </div>
+      <div class="main-content">
+        <div class="list-container">
+          <ul class="papers-list block-list">
+            <li>
+              <div class="papers-item">
+                <div class="paper-authors">
+                  Dmitry Itsykson, Alexander Okhotin, Vsevolod Oparin
+                </div>
+                <div class="paper-title">
+                  Computational and proof complexity of partial string avoidability
+                </div>
+                <div class="paper-detailes">
+                  MFCS 2016, [pdf].
+                </div>
+              </div>
+              <div class="paper-space"></div>
+            </li>
+            <li>
+              <div class="papers-item">
+                <div class="paper-authors">
+                  Dmitry Itsykson, Vsevolod Oparin, Mikhail Slabodkin, Dmitriy Sokolov
+                </div>
+                <div class="paper-title">
+                  Tight Lower Bounds on the Resolution Complexity of Perfect Matching Principles
+                </div>
+                <div class="paper-detailes">
+                  Fundamenta Informaticae vol. 145, no. 3, pp. 229-242, 2016.
+                </div>
+              </div>
+              <div class="paper-space"></div>
+            </li>
+            <li>
+              <div class="papers-item">
+                <div class="paper-authors">
+                  Dmitry Itsykson, Alexander Knop and Dmitry Sokolov
+                </div>
+                <div class="paper-title">
+                  Complexity of distributions and average-case hardness
+                </div>
+                <div class="paper-detailes">
+                  ECCC Report TR15-174. Accepted to ISAAC 2016.
+                </div>
+              </div>
+              <div class="paper-space"></div>
+            </li>
+            <li>
+              <div class="papers-item">
+                <div class="paper-authors">
+                  Dmitry Itsykson, Alexander Knop and Dmitry Sokolov
+                </div>
+                <div class="paper-title">
+                  Heuristic time hierarchies via hierarchies for sampling distributions
+                </div>
+                <div class="paper-detailes">
+                  ECCC Report TR14-178 Accepted to ISAAC 2015.
+                </div>
+              </div>
+              <div class="paper-space"></div>
+            </li>
+            <li>
+              <div class="papers-item">
+                <div class="paper-authors">
+                  Dmitry Itsykson, Mikhail Slabodkin and Dmitry Sokolov
+                </div>
+                <div class="paper-title">
+                  Resolution complexity of perfect matching principles for sparse graphs
+                </div>
+                <div class="paper-detailes">
+                  ECCC Report TR14-093. Accepted to CSR 2015. Draft [.pdf].
+                </div>
+              </div>
+              <div class="paper-space"></div>
+            </li>
+            <li>
+              <div class="papers-item">
+                <div class="paper-authors">
+                  Dmitry Itsykson and Dmitry Sokolov
+                </div>
+                <div class="paper-title">
+                  Lower bounds for splittings by linear combinations
+                </div>
+                <div class="paper-detailes">
+                  Accepted to MFCS-2014. Draft (updated 09.08.2014).
+                </div>
+              </div>
+              <div class="paper-space"></div>
+            </li>
+            <li>
+              <div class="papers-item">
+                <div class="paper-authors">
+                  Dmitry Itsykson and Dmitry Sokolov
+                </div>
+                <div class="paper-title">
+                  On fast non-deterministic algorithms and short heuristic proofs
+                </div>
+                <div class="paper-detailes">
+                  Fundamenta Informaticae, 132(1):113-129, 2014. Draft [.pdf].
+                </div>
+              </div>
+              <div class="paper-space"></div>
+            </li>
+            <li>
+              <div class="papers-item">
+                <div class="paper-authors">
+                  Dmitry Itsykson and Vsevolod Oparin
+                </div>
+                <div class="paper-title">
+                  Graph expansion, Tseitin formulas and resolution proofs for CSP
+                </div>
+                <div class="paper-detailes">
+                  In proceedings of CSR 2013, LNCS 7913: 162-173. Draft [.pdf].
+                </div>
+              </div>
+              <div class="paper-space"></div>
+            </li>
+            <li>
+              <div class="papers-item">
+                <div class="paper-authors">
+                  Edward A. Hirsch and Dmitry Itsykson
+                </div>
+                <div class="paper-title">
+                  On an optimal randomized acceptor for graph nonisomorphism
+                </div>
+                <div class="paper-detailes">
+                  Information Processing Letters, 112: 166-171, 2012. Draft [.pdf].
+                </div>
+              </div>
+              <div class="paper-space"></div>
+            </li>
+            <li>
+              <div class="papers-item">
+                <div class="paper-authors">
+                  Dmitry Itsykson and Dmitry Sokolov
+                </div>
+                <div class="paper-title">
+                  Lower bounds for myopic DPLL algorithms with a cut heuristic
+                </div>
+                <div class="paper-detailes">
+                  In proceedings of ISAAC 2011. ECCC Report TR12-141. [pdf]
+                </div>
+              </div>
+              <div class="paper-space"></div>
+            </li>
+            <li>
+              <div class="papers-item">
+                <div class="paper-authors">
+                  Edward A. Hirsch , Dmitry Itsykson, Valeria Nikolaenko and Alexander Smal
+                </div>
+                <div class="paper-title">
+                  Optimal heuristic algorithms for the image of an injective function
+                </div>
+                <div class="paper-detailes">
+                  ECCC Report TR11-091. Zapiski Nauchnyh Seminarov POMI (Journal of Mathematical
+                  Sciences), 399:15-32, 2012.
+                </div>
+              </div>
+              <div class="paper-space"></div>
+            </li>
+            <li>
+              <div class="papers-item">
+                <div class="paper-authors">
+                  Edward A. Hirsch , Dmitry Itsykson, Ivan Monakhov and Alexander Smal
+                </div>
+                <div class="paper-title">
+                  On optimal heuristic randomized semidecision procedures, with application to
+                  proof complexity and cryptography
+                </div>
+                <div class="paper-detailes">
+                  ECCC Report TR10-193. [pdf]. Theory of Computing Systems 51:179-195, 2012.
+                </div>
+              </div>
+              <div class="paper-space"></div>
+            </li>
+            <li>
+              <div class="papers-item">
+                <div class="paper-authors">
+                  Dmitry Itsykson and Dmitry Sokolov
+                </div>
+                <div class="paper-title">
+                  The complexity of inversion of explicit Goldreich's function by DPLL algorithms
+                </div>
+                <div class="paper-detailes">
+                  Zapiski Nauchnyh Seminarov POMI (Journal of Mathematical Sciences), 399:88-109,
+                  2012 [pdf]. Preliminary version appeared in proceedings of CSR 2011, LNCS 6651
+                  pp. 134-147.
+                </div>
+              </div>
+              <div class="paper-space"></div>
+            </li>
+            <li>
+              <div class="papers-item">
+                <div class="paper-authors">
+                  Edward A. Hirsch and Dmitry Itsykson
+                </div>
+                <div class="paper-title">
+                  On optimal heuristic randomized semidecision procedures, with application to
+                  proof complexity
+                </div>
+                <div class="paper-detailes">
+                  ArXiv preprint arXiv:0908.2707v2 [cs.CC], in proceedings of STACS 2010,
+                  pp.453-464.
+                </div>
+              </div>
+              <div class="paper-space"></div>
+            </li>
+            <li>
+              <div class="papers-item">
+                <div class="paper-authors">
+                  Dmitry M. Itsykson
+                </div>
+                <div class="paper-title">
+                  Lower bound on average-case complexity of inversion of Goldreich function by
+                  "drunken" backtracking algorithms
+                </div>
+                <div class="paper-detailes">
+                  PDMI PREPRINT 3/2009. [ps.gz] (in Russian). In proceedings of CSR 2010, LNCS
+                  6072, pp. 204-215. The paper won Yandex best paper award. Draft [.pdf]. To appear
+                  in Theory of Computing Systems.
+                </div>
+              </div>
+              <div class="paper-space"></div>
+            </li>
+            <li>
+              <div class="papers-item">
+                <div class="paper-authors">
+                  Dmitry M. Itsykson
+                </div>
+                <div class="paper-title">
+                  Structural complexity of AvgBPP
+                </div>
+                <div class="paper-detailes">
+                  ECCC Report TR08-073, [ps], [pdf]. Annals of Pure and Applied Logic, 162(3):
+                  213-223, 2010. Preliminary version appeared in proceedings of CSR 2009, LNCS
+                  5675, pp. 155-166, 2009. The paper won Yandex best student paper award.
+                </div>
+              </div>
+              <div class="paper-space"></div>
+            </li>
+            <li>
+              <div class="papers-item">
+                <div class="paper-authors">
+                  Edward A. Hirsch and Dmitry M. Itsykson
+                </div>
+                <div class="paper-title">
+                  An infinitely-often one-way function based on an average-case assumption
+                </div>
+                <div class="paper-detailes">
+                  ECCC Report TR07-117. [ps] , [pdf] Algebra and Analisys, 21(3):129--143, 2009.
+                  English translation: St. Petersburg Mathematical Journal, 21(3): 459-468, 2010.
+                  Preliminary version appeared in proceedings of WoLLIC 2008, LNCS 5110, pp.
+                  208-217.
+                </div>
+              </div>
+              <div class="paper-space"></div>
+            </li>
+            <li>
+              <div class="papers-item">
+                <div class="paper-authors">
+                  Dmitry Itsykson and Arist Kojevnikov
+                </div>
+                <div class="paper-title">
+                  Lower bounds of static Lovasz-Schrijver calculus proofs for Tseitin tautologies
+                </div>
+                <div class="paper-detailes">
+                  Zapiski Nauchnyh Seminarov POMI, 340:10-32, 2006 (in Russian), [ps.gz]. English
+                  translation appeared in Journal of Mathematical Sciences 145(3):4942-4952, 2007,
+                  [pdf].<br>
+                  Preliminary version appeared as Exponential Lower Bound on the Size of Static
+                  Lovasz-Schrijver Calculus in Proceedings of the 33rd International Colloquium on
+                  Automata, Languages and Programming (ICALP 2006), pp. 323-334, [doi].
+                </div>
+              </div>
+              <div class="paper-space"></div>
+            </li>
+            <li>
+              <div class="papers-item">
+                <div class="paper-authors">
+                  M. Alekhnovich, E. A. Hirsch, D. Itsykson
+                </div>
+                <div class="paper-title">
+                  Exponential lower bounds for the running time of DPLL algorithms on satisfiable
+                  formulas
+                </div>
+                <div class="paper-detailes">
+                  Extended abstract appears in Proceedings of ICALP 2004, LNCS 3142, 2004,
+                  pp.84-96. Full article appeared in Journal of Automated Reasoning (2005) 35:
+                  51-72, [ps], [pdf].
+                </div>
+              </div>
+              <div class="paper-space"></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="card" data-card="seminar">
+      <div class="heading">
+        <h2>DISCRETE MATHEMATICS SEMINAR</h2>
+      </div>
+      <div class="main-content">
+        <div class="seminar-description">
+          Since 2009 I've been responsible for our Discrete Mathematics seminar. The seminar treats
+          the term "Discrete Mathematics" in the most broad sense that includes logic, computations
+          and complexity. The current usual time is Friday at 18:00. The web-page contains a link
+          to seminar's mailing list subscription.
+        </div>
+      </div>
+    </div>
+    <div class="card" data-card="contacts">
+      <div class="heading">
+        <h2>CONTACTS</h2>
+      </div>
+      <div class="main-content">
+        <div class="address">
+          <div class="title">
+            <b>Address:</b>
+          </div>
+          <div class="contact-information">
+            <a href="http://logic.pdmi.ras.ru/" target="_blank">Laboratory of Mathematical
+            Logic</a><br>
+            <a href="http://www.pdmi.ras.ru/pdmi/index.php" target="_blank">Steklov Institute of
+            Mathematics at St.Petersburg</a><br>
+            27 Fontanka, St.Petersburg 191023, Russia
+          </div>
+        </div>
+        <div class="email">
+          <div class="title">
+            <b>Email:</b>
+          </div>
+          <div class="contact-information">
+            username: dmitrits, domain: pdmi.ras.ru
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
