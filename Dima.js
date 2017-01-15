@@ -1,6 +1,6 @@
 function switchToCard(id) {
   $(".card").hide();
-  $("[data-card='" + id + "'").show();
+  $("[data-card='" + id + "']").show();
   $(".menu-button").removeClass('selected');
   $(".menu-button[data-card-id='" + id + "']").addClass("selected");
 }
