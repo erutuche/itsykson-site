@@ -458,6 +458,9 @@ li {
     /*width: 250px;*/
     -ms-flex-negative: 1;
         flex-shrink: 1; /*не работает*/
+        -webkit-box-flex: 1;
+            -ms-flex-positive: 1;
+                flex-grow: 1;
   }
 
   .menu-button > a:link, 
