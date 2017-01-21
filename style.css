@@ -545,6 +545,9 @@ li {
         -ms-flex-direction: column;
             flex-direction: column;
     padding: 10px;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
   }
 
   .mobile-menu {
