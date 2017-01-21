@@ -592,6 +592,9 @@ li {
     display: -ms-flexbox;
     display: flex;
     width: 100%;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
   }
 
   nav {
